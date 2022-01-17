@@ -1,0 +1,144 @@
+# tomcat配置
+server:
+  port: 8086
+  undertow:
+    buffer-size: 1024           # buffer用于服务器连接的IO操作, 每块buffer的空间大小,越小的空间被利用越充分
+    direct-buffers: true        # 是否分配的直接内存(NIO直接分配的堆外内存)
+    threads:
+      io: 8           # 阻塞任务线程池, 它的值设置取决于系统线程执行任务的阻塞系数，默认值是IO线程数*8
+      worker: 128
+  servlet:
+    context-path: /
+  error:
+    include-exception: true
+    include-stacktrace: always
+
+# 健康检查
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  server:
+    port: 9901
+    ssl:
+      enabled: false
+    servlet:
+      context-path: /
+  endpoint:
+    health:
+      show-details: always
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+  type-aliases-package: com.neusoft.appointment.organizations.entity
+
+# 基础配置
+spring:
+  klock:
+    address: 127.0.0.1:6379
+  cache:
+    type: redis
+  application:
+    name: organizations-atomic-service
+  messages:
+    basename: i18n/messages,i18n/core/messages
+    encoding: UTF-8
+  # 数据源配置
+  datasource:
+    name: order-atomic
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521/orcl
+    username: app
+    password: app
+    druid:
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      filters: stat,wall
+      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      web-stat-filter:
+        enabled: true
+      stat-view-servlet:
+        enabled: true
+      multiStatementAllow: true
+      registration: # 监控
+        loginUsername: admin
+        loginPassword: neusoft@123
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-active: 100
+        max-idle: 3
+        max-wait: -1
+        min-idle: 0
+    timeout: 1000
+
+lock4j:
+  acquire-timeout: 3000 #默认值，可不设置
+  expire: 30000 #默认值，可不设置
+  primary-executor: com.baomidou.lock.executor.RedisTemplateLockExecutor #默认redisson>redisTemplate>zookeeper
+
+knife4j:
+  enable: true
+  # 开启生产环境屏蔽
+  production: false
+  setting:
+    language: zh-CN
+    enableSwaggerModels: true
+    enableDocumentManage: true
+    enableVersion: false
+  # Basic认证
+  basic:
+    enable: false
+    # Basic认证
+    username: test
+    # Basic认证密码
+    password: 123
+
+mate:
+  tenant:
+    enable: false
+    ignoreTables:
+      - BaseHospital
+    column: hospital_code
+    ignoreSqls: []
+    defaultTenantId: "1"
+    tenantHeaderKey: mate-tenant
+    filterTenantKey: true
+
+jwt:
+  enable: false
+  header: Authorization
+  # This token must be encoded using Base64 with mininum 88 Bits (you can type `echo 'secret-key'|base64` on your command line)
+  base64-secret: ZmQ0ZGI5NjQ0MDQwY2I4MjMxY2Y3ZmI3MjdhN2ZmMjNhODViOTg1ZGE0NTBjMGM4NDA5NzYxMjdjOWMwYWRmZTBlZjlhNGY3ZTg4Y2U3YTE1ODVkZDU5Y2Y3OGYwZWE1NzUzNWQ2YjFjZDc0NGMxZWU2MmQ3MjY1NzJmNTE0MzI=
+  # token is valid 24 hours
+  token-validity-in-seconds: 86400
+  # valid 30 hours
+  token-validity-in-seconds-for-remember-me: 108000
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+
+# 全局过滤路径
+global-ignore-path:
+  paths:
+    - /swagger-resources
+    - /v2/api-docs

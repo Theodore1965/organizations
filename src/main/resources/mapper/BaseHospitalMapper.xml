@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.appointment.organizations.dao.BaseHospitalMapper">
+    <!-- 结果集 -->
+    <resultMap type="com.neusoft.appointment.organizations.entity.BaseHospital" id="BaseHospitalMap">
+        <result property="code" column="CODE" jdbcType="VARCHAR"/>
+        <result property="name" column="NAME" jdbcType="VARCHAR"/>
+        <result property="spellCode" column="SPELL_CODE" jdbcType="VARCHAR"/>
+        <result property="wbCode" column="WB_CODE" jdbcType="VARCHAR"/>
+        <result property="enabled" column="ENABLED" jdbcType="BOOLEAN"/>
+        <result property="organizationCode" column="ORGANIZATION_CODE" jdbcType="VARCHAR"/>
+        <result property="operatorCode" column="OPERATOR_CODE" jdbcType="VARCHAR"/>
+        <result property="operatorName" column="OPERATOR_NAME" jdbcType="VARCHAR"/>
+        <result property="updateTime" column="UPDATE_TIME" jdbcType="TIMESTAMP"/>
+        <result property="createTime" column="CREATE_TIME" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!-- 基本字段 -->
+    <sql id="Base_Column_List">
+        CODE, NAME, SPELL_CODE, WB_CODE, ENABLED, ORGANIZATION_CODE, OPERATOR_CODE, OPERATOR_NAME, UPDATE_TIME, CREATE_TIME    </sql>
+    <update id="updateEnabledByCode">
+        update BASE_HOSPITAL
+         set ENABLED = #{enabled,jdbcType=BOOLEAN}
+        where
+        CODE = #{code,jdbcType=VARCHAR}
+    </update>
+</mapper>

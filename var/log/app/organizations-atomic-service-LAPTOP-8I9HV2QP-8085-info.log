@@ -1,0 +1,798 @@
+[organizations-atomic-service] 2021-07-28 11:31:26.889+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 19704 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 11:31:26.908+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 11:31:28.411+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 11:31:28.416+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 11:31:28.454+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 11:31:28.671+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 11:31:29.217+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 11:31:29.228+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:31:29.228+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:31:29.416+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:31:29.416+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2452 ms
+[organizations-atomic-service] 2021-07-28 11:31:29.628+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 11:31:29.694+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 11:31:30.197+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 11:31:32.956+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 11:31:33.636+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:31:33.702+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 11:31:33.703+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:31:33.703+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:31:33.751+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:31:33.751+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 110 ms
+[organizations-atomic-service] 2021-07-28 11:31:33.762+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 11:31:33.975+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:31:33.979+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 11:31:33.982+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 11:31:34.006+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 11:31:34.191+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.871 seconds (JVM running for 10.335)
+[organizations-atomic-service] 2021-07-28 11:31:36.656+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:31:36.656+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:31:36.658+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[organizations-atomic-service] 2021-07-28 11:32:38.810+0800 [http-nio-8085-exec-9] WARN  i.s.m.p.AbstractSerializableParameter - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4487)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3742)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at com.neusoft.appointment.organizations.config.TenantContextHolderFilter.doFilter(TenantContextHolderFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[organizations-atomic-service] 2021-07-28 11:32:38.811+0800 [http-nio-8085-exec-9] WARN  i.s.m.p.AbstractSerializableParameter - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4487)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3742)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at com.neusoft.appointment.organizations.config.TenantContextHolderFilter.doFilter(TenantContextHolderFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[organizations-atomic-service] 2021-07-28 11:36:11.932+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 11:36:11.943+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 11:36:18.021+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 7836 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 11:36:18.024+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 11:36:19.243+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 11:36:19.246+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 11:36:19.277+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 11:36:19.503+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 11:36:20.002+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 11:36:20.011+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:36:20.011+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:36:20.187+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:36:20.188+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2119 ms
+[organizations-atomic-service] 2021-07-28 11:36:20.366+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 11:36:20.440+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 11:36:20.864+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 11:36:23.567+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 11:36:24.190+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:36:24.269+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 11:36:24.270+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:36:24.270+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:36:24.317+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:36:24.318+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 124 ms
+[organizations-atomic-service] 2021-07-28 11:36:24.326+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 11:36:24.552+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:36:24.556+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 11:36:24.558+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 11:36:24.582+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 11:36:24.764+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.26 seconds (JVM running for 9.543)
+[organizations-atomic-service] 2021-07-28 11:36:25.137+0800 [RMI TCP Connection(1)-10.30.13.151] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:36:25.138+0800 [RMI TCP Connection(1)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:36:25.141+0800 [RMI TCP Connection(1)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[organizations-atomic-service] 2021-07-28 11:39:53.733+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 11:39:53.740+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 11:40:02.117+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 4184 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 11:40:02.121+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 11:40:03.336+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 11:40:03.338+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 11:40:03.368+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 11:40:03.586+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 11:40:04.129+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 11:40:04.138+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:40:04.140+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:40:04.321+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:40:04.322+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2151 ms
+[organizations-atomic-service] 2021-07-28 11:40:04.498+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 11:40:04.561+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 11:40:04.964+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 11:40:07.725+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 11:40:08.386+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:40:08.445+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 11:40:08.446+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:40:08.446+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:40:08.496+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:40:08.496+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 106 ms
+[organizations-atomic-service] 2021-07-28 11:40:08.505+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 11:40:08.711+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:40:08.715+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 11:40:08.718+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 11:40:08.743+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 11:40:08.949+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.385 seconds (JVM running for 9.626)
+[organizations-atomic-service] 2021-07-28 11:40:10.749+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:40:10.750+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:40:10.753+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[organizations-atomic-service] 2021-07-28 11:42:45.961+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 11:42:45.968+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 11:42:54.864+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 13696 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 11:42:54.867+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 11:42:56.167+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 11:42:56.169+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 11:42:56.203+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 11:42:56.437+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 11:42:57.006+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 11:42:57.020+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:42:57.021+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:42:57.206+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:42:57.206+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2295 ms
+[organizations-atomic-service] 2021-07-28 11:42:57.388+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 11:42:57.454+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 11:42:57.865+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 11:43:00.560+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 11:43:01.209+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:43:01.275+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 11:43:01.276+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:43:01.276+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:43:01.328+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:43:01.328+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 114 ms
+[organizations-atomic-service] 2021-07-28 11:43:01.338+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 11:43:01.409+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:43:01.414+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 11:43:01.577+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 11:43:01.604+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 11:43:01.799+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.53 seconds (JVM running for 9.949)
+[organizations-atomic-service] 2021-07-28 11:43:02.908+0800 [RMI TCP Connection(1)-10.30.13.151] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:43:02.909+0800 [RMI TCP Connection(1)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:43:02.912+0800 [RMI TCP Connection(1)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[organizations-atomic-service] 2021-07-28 11:43:29.168+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 11:43:29.174+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 11:43:36.769+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 9040 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 11:43:36.771+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 11:43:37.876+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 11:43:37.879+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 11:43:37.909+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 11:43:38.100+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 11:43:38.549+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 11:43:38.558+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:43:38.558+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:43:38.737+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:43:38.737+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1923 ms
+[organizations-atomic-service] 2021-07-28 11:43:38.906+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 11:43:38.969+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 11:43:39.366+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 11:43:41.972+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 11:43:42.601+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:43:42.662+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 11:43:42.662+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 11:43:42.663+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 11:43:42.711+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 11:43:42.712+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 107 ms
+[organizations-atomic-service] 2021-07-28 11:43:42.722+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 11:43:42.948+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 11:43:42.952+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 11:43:42.955+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 11:43:42.979+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 11:43:43.165+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 6.927 seconds (JVM running for 9.184)
+[organizations-atomic-service] 2021-07-28 11:43:45.461+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:43:45.461+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 11:43:45.463+0800 [RMI TCP Connection(3)-10.30.13.151] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[organizations-atomic-service] 2021-07-28 13:15:03.738+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 13:15:03.745+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 13:15:10.765+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 18068 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 13:15:10.767+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 13:15:11.974+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 13:15:11.977+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 13:15:12.011+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 13:15:12.231+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 13:15:12.709+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 13:15:12.718+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:15:12.719+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:15:12.886+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:15:12.886+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2072 ms
+[organizations-atomic-service] 2021-07-28 13:15:13.052+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 13:15:13.115+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 13:15:13.507+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 13:15:16.163+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 13:15:16.760+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:15:16.826+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 13:15:16.827+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:15:16.827+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:15:16.892+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:15:16.892+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 128 ms
+[organizations-atomic-service] 2021-07-28 13:15:16.901+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 13:15:17.127+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:15:17.131+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 13:15:17.133+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 13:15:17.158+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 13:15:17.340+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.086 seconds (JVM running for 9.399)
+[organizations-atomic-service] 2021-07-28 13:15:18.361+0800 [RMI TCP Connection(1)-192.168.43.119] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:15:18.361+0800 [RMI TCP Connection(1)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:15:18.364+0800 [RMI TCP Connection(1)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[organizations-atomic-service] 2021-07-28 13:17:23.141+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 13:17:23.150+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 13:17:28.747+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 18476 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 13:17:28.750+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 13:17:29.920+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 13:17:29.923+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 13:17:29.953+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 13:17:30.156+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 13:17:30.637+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 13:17:30.647+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:17:30.648+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:17:30.823+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:17:30.823+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2028 ms
+[organizations-atomic-service] 2021-07-28 13:17:30.993+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 13:17:31.058+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 13:17:31.459+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 13:17:34.752+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 13:17:35.366+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:17:35.447+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 13:17:35.447+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:17:35.447+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:17:35.506+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:17:35.506+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 135 ms
+[organizations-atomic-service] 2021-07-28 13:17:35.515+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 13:17:35.733+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:17:35.737+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 13:17:35.740+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 13:17:35.765+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 13:17:35.950+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.77 seconds (JVM running for 10.048)
+[organizations-atomic-service] 2021-07-28 13:17:37.042+0800 [RMI TCP Connection(3)-192.168.43.119] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:17:37.042+0800 [RMI TCP Connection(3)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:17:37.046+0800 [RMI TCP Connection(3)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[organizations-atomic-service] 2021-07-28 13:18:38.750+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 13:18:38.758+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 13:19:10.395+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 8284 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 13:19:10.397+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 13:19:11.543+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 13:19:11.545+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 13:19:11.574+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 13:19:11.768+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 13:19:12.283+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 13:19:12.293+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:19:12.293+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:19:12.480+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:19:12.481+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2039 ms
+[organizations-atomic-service] 2021-07-28 13:19:12.658+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 13:19:12.718+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 13:19:13.133+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 13:19:15.935+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 13:19:16.576+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:19:16.644+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 13:19:16.644+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:19:16.644+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:19:16.693+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:19:16.693+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 113 ms
+[organizations-atomic-service] 2021-07-28 13:19:16.702+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 13:19:16.924+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:19:16.928+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 13:19:16.931+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 13:19:16.955+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 13:19:17.137+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.283 seconds (JVM running for 9.513)
+[organizations-atomic-service] 2021-07-28 13:19:18.479+0800 [RMI TCP Connection(3)-192.168.43.119] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:19:18.480+0800 [RMI TCP Connection(3)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:19:18.485+0800 [RMI TCP Connection(3)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[organizations-atomic-service] 2021-07-28 13:24:36.778+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 13:24:36.785+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 13:24:43.328+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 20344 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 13:24:43.330+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 13:24:44.486+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 13:24:44.488+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 13:24:44.517+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 13:24:44.714+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 13:24:45.174+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 13:24:45.183+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:24:45.184+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:24:45.362+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:24:45.362+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1996 ms
+[organizations-atomic-service] 2021-07-28 13:24:45.577+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 13:24:45.646+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 13:24:46.113+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 13:24:49.160+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 13:24:49.785+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:24:49.876+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 13:24:49.876+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 13:24:49.876+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 13:24:49.933+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 13:24:49.934+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 144 ms
+[organizations-atomic-service] 2021-07-28 13:24:49.943+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 13:24:50.164+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 13:24:50.168+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 13:24:50.171+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 13:24:50.196+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 13:24:50.385+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.632 seconds (JVM running for 10.01)
+[organizations-atomic-service] 2021-07-28 13:24:52.713+0800 [RMI TCP Connection(5)-192.168.43.119] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:24:52.713+0800 [RMI TCP Connection(5)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 13:24:52.716+0800 [RMI TCP Connection(5)-192.168.43.119] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[organizations-atomic-service] 2021-07-28 15:08:10.595+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:08:10.605+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:08:21.698+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 14888 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:08:21.701+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:08:22.844+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:08:22.847+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:08:22.878+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:08:23.072+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:08:23.530+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:08:23.539+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:08:23.539+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:08:23.710+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:08:23.711+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1964 ms
+[organizations-atomic-service] 2021-07-28 15:08:23.883+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:08:23.943+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:08:24.340+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:08:27.044+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:08:27.684+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:08:27.744+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:08:27.744+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:08:27.745+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:08:27.793+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:08:27.793+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 105 ms
+[organizations-atomic-service] 2021-07-28 15:08:27.801+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:08:28.023+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:08:28.027+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:08:28.030+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:08:28.054+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:08:28.243+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.091 seconds (JVM running for 9.411)
+[organizations-atomic-service] 2021-07-28 15:08:30.953+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:08:30.953+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:08:30.954+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[organizations-atomic-service] 2021-07-28 15:10:39.579+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:10:39.586+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:10:44.120+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 4848 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:10:44.122+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:10:45.450+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:10:45.452+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:10:45.485+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:10:45.696+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:10:46.207+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:10:46.216+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:10:46.216+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:10:46.409+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:10:46.410+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2245 ms
+[organizations-atomic-service] 2021-07-28 15:10:46.608+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:10:46.672+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:10:47.068+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:10:49.802+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:10:50.469+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:10:50.545+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:10:50.547+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:10:50.547+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:10:50.596+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:10:50.596+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 123 ms
+[organizations-atomic-service] 2021-07-28 15:10:50.605+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:10:50.865+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:10:50.870+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:10:50.873+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:10:50.907+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:10:51.208+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.675 seconds (JVM running for 9.948)
+[organizations-atomic-service] 2021-07-28 15:10:55.173+0800 [RMI TCP Connection(7)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:10:55.173+0800 [RMI TCP Connection(7)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:10:55.175+0800 [RMI TCP Connection(7)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[organizations-atomic-service] 2021-07-28 15:12:26.918+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:12:26.924+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:12:33.715+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 1876 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:12:33.717+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:12:34.925+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:12:34.928+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:12:34.959+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:12:35.185+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:12:35.685+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:12:35.699+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:12:35.699+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:12:35.879+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:12:35.879+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2117 ms
+[organizations-atomic-service] 2021-07-28 15:12:36.055+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:12:36.117+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:12:36.508+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:12:39.220+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:12:39.891+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:12:39.953+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:12:39.954+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:12:39.954+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:12:40.069+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:12:40.069+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 174 ms
+[organizations-atomic-service] 2021-07-28 15:12:40.091+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:12:40.411+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:12:40.419+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:12:40.425+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:12:40.465+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:12:40.767+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.588 seconds (JVM running for 9.894)
+[organizations-atomic-service] 2021-07-28 15:12:44.229+0800 [RMI TCP Connection(4)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:12:44.229+0800 [RMI TCP Connection(4)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:12:44.232+0800 [RMI TCP Connection(4)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[organizations-atomic-service] 2021-07-28 15:13:43.353+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:13:43.360+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:13:48.033+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 4036 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:13:48.036+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:13:49.231+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:13:49.234+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:13:49.265+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:13:49.464+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:13:49.917+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:13:49.926+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:13:49.926+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:13:50.102+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:13:50.102+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2022 ms
+[organizations-atomic-service] 2021-07-28 15:13:50.279+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:13:50.340+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:13:50.736+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:13:57.954+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:14:00.554+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:14:00.615+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:14:00.616+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:14:00.616+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:14:00.663+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:14:00.664+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 106 ms
+[organizations-atomic-service] 2021-07-28 15:14:00.672+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:14:00.891+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:14:00.895+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:14:00.898+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:14:00.922+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:14:01.112+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 13.621 seconds (JVM running for 15.882)
+[organizations-atomic-service] 2021-07-28 15:14:01.460+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:14:01.460+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:14:01.463+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[organizations-atomic-service] 2021-07-28 15:14:29.601+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:14:29.609+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:14:34.719+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 18924 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:14:34.722+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:14:35.838+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:14:35.840+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:14:35.869+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:14:36.043+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:14:36.502+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:14:36.511+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:14:36.512+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:14:36.678+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:14:36.678+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1914 ms
+[organizations-atomic-service] 2021-07-28 15:14:36.849+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:14:36.911+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:14:37.303+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:14:43.002+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:14:45.189+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:14:45.251+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:14:45.252+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:14:45.252+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:14:45.300+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:14:45.300+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 106 ms
+[organizations-atomic-service] 2021-07-28 15:14:45.310+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:14:45.356+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:14:45.362+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:14:45.366+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:14:45.400+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:14:45.786+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 11.68 seconds (JVM running for 14.033)
+[organizations-atomic-service] 2021-07-28 15:14:46.178+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:14:46.178+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:14:46.181+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[organizations-atomic-service] 2021-07-28 15:15:18.039+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:15:18.047+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:15:24.926+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 3604 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:15:24.930+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:15:26.128+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:15:26.130+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:15:26.159+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:15:26.373+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:15:26.876+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:15:26.886+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:15:26.886+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:15:27.061+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:15:27.061+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2084 ms
+[organizations-atomic-service] 2021-07-28 15:15:27.231+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:15:27.290+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:15:27.685+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:15:32.523+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:15:33.193+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:15:33.277+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:15:33.277+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:15:33.277+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:15:33.325+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:15:33.325+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 127 ms
+[organizations-atomic-service] 2021-07-28 15:15:33.337+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:15:33.555+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:15:33.560+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:15:33.562+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:15:33.589+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:15:33.776+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 9.41 seconds (JVM running for 11.638)
+[organizations-atomic-service] 2021-07-28 15:15:34.077+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:15:34.077+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:15:34.081+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[organizations-atomic-service] 2021-07-28 15:19:41.485+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:19:41.493+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:19:48.220+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 17248 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:19:48.222+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:19:49.396+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:19:49.399+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:19:49.434+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:19:49.646+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:19:50.126+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:19:50.137+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:19:50.137+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:19:50.316+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:19:50.316+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2048 ms
+[organizations-atomic-service] 2021-07-28 15:19:50.491+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:19:50.557+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:19:50.977+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:19:56.883+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:19:57.537+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:19:57.620+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:19:57.621+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:19:57.621+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:19:57.696+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:19:57.696+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 154 ms
+[organizations-atomic-service] 2021-07-28 15:19:57.705+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:19:57.901+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:19:57.906+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:19:57.908+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:19:57.933+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:19:58.130+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 10.477 seconds (JVM running for 12.888)
+[organizations-atomic-service] 2021-07-28 15:20:00.558+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:20:00.558+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:20:00.559+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[organizations-atomic-service] 2021-07-28 15:20:28.262+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:20:28.269+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:20:34.730+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 9308 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:20:34.732+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:20:35.951+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:20:35.954+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:20:35.987+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:20:36.221+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:20:36.681+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:20:36.689+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:20:36.691+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:20:36.864+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:20:36.865+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2089 ms
+[organizations-atomic-service] 2021-07-28 15:20:37.031+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:20:37.090+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:20:37.492+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:20:40.226+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:20:40.863+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:20:40.943+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:20:40.944+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:20:40.944+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:20:40.991+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:20:40.991+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 123 ms
+[organizations-atomic-service] 2021-07-28 15:20:41.001+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:20:41.222+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:20:41.226+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:20:41.229+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:20:41.253+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:20:41.441+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.271 seconds (JVM running for 9.694)
+[organizations-atomic-service] 2021-07-28 15:20:42.757+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:20:42.757+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:20:42.762+0800 [RMI TCP Connection(1)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[organizations-atomic-service] 2021-07-28 15:25:08.135+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:25:08.143+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:25:17.449+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 2152 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:25:17.455+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:25:18.720+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:25:18.723+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:25:18.754+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:25:18.970+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:25:19.512+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:25:19.528+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:25:19.529+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:25:19.715+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:25:19.717+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2197 ms
+[organizations-atomic-service] 2021-07-28 15:25:19.888+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:25:19.952+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:25:20.350+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:26:01.877+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:26:02.519+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:26:02.589+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:26:02.590+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:26:02.590+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:26:02.637+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:26:02.637+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 114 ms
+[organizations-atomic-service] 2021-07-28 15:26:02.646+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:26:02.849+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:26:02.853+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:26:02.856+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:26:02.882+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:26:03.073+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 46.319 seconds (JVM running for 48.673)
+[organizations-atomic-service] 2021-07-28 15:26:04.624+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:26:04.625+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:26:04.627+0800 [RMI TCP Connection(3)-10.30.12.165] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[organizations-atomic-service] 2021-07-28 15:56:19.829+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 15:56:19.836+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[organizations-atomic-service] 2021-07-28 15:56:32.079+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Starting OrganizationsApplication using Java 1.8.0_151 on LAPTOP-8I9HV2QP with PID 19200 (E:\hp-km\appointment_workspace\target\classes started by Y7000 in E:\hp-km\appointment_workspace)
+[organizations-atomic-service] 2021-07-28 15:56:32.081+0800 [main] INFO  c.n.a.o.OrganizationsApplication - The following profiles are active: prod
+[organizations-atomic-service] 2021-07-28 15:56:33.542+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[organizations-atomic-service] 2021-07-28 15:56:33.546+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[organizations-atomic-service] 2021-07-28 15:56:33.583+0800 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+[organizations-atomic-service] 2021-07-28 15:56:33.787+0800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9ed581ff-9e65-382b-a382-5cd224f86b8d
+[organizations-atomic-service] 2021-07-28 15:56:34.242+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[organizations-atomic-service] 2021-07-28 15:56:34.250+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:56:34.250+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:56:34.421+0800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:56:34.421+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2294 ms
+[organizations-atomic-service] 2021-07-28 15:56:34.590+0800 [main] INFO  o.s.b.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+[organizations-atomic-service] 2021-07-28 15:56:34.653+0800 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[organizations-atomic-service] 2021-07-28 15:56:35.087+0800 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[organizations-atomic-service] 2021-07-28 15:56:37.972+0800 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[organizations-atomic-service] 2021-07-28 15:56:38.715+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:56:38.792+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9901 (http)
+[organizations-atomic-service] 2021-07-28 15:56:38.793+0800 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[organizations-atomic-service] 2021-07-28 15:56:38.794+0800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[organizations-atomic-service] 2021-07-28 15:56:38.846+0800 [main] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[organizations-atomic-service] 2021-07-28 15:56:38.846+0800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 127 ms
+[organizations-atomic-service] 2021-07-28 15:56:38.857+0800 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+[organizations-atomic-service] 2021-07-28 15:56:39.101+0800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9901 (http) with context path ''
+[organizations-atomic-service] 2021-07-28 15:56:39.105+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+[organizations-atomic-service] 2021-07-28 15:56:39.108+0800 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[organizations-atomic-service] 2021-07-28 15:56:39.133+0800 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[organizations-atomic-service] 2021-07-28 15:56:39.319+0800 [main] INFO  c.n.a.o.OrganizationsApplication - Started OrganizationsApplication in 7.751 seconds (JVM running for 11.082)
+[organizations-atomic-service] 2021-07-28 15:56:39.703+0800 [RMI TCP Connection(3)-10.30.12.84] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:56:39.703+0800 [RMI TCP Connection(3)-10.30.12.84] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[organizations-atomic-service] 2021-07-28 15:56:39.705+0800 [RMI TCP Connection(3)-10.30.12.84] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[organizations-atomic-service] 2021-07-28 17:25:44.897+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+[organizations-atomic-service] 2021-07-28 17:25:44.904+0800 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
